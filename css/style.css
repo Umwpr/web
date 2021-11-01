@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+body {
+  background-color: #424242;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-family: 'Roboto', serif;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 2em;
+  padding: 1vw;
+  color: white;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 4px 4px 8px black;
+          box-shadow: 4px 4px 8px black;
+  border-radius: 10px;
+  font-weight: 300;
+}
+
+.links a:hover {
+  -webkit-box-shadow: 2px 2px 8px black;
+          box-shadow: 2px 2px 8px black;
+}
+
+.tiktok {
+  background-color: #FE2C55;
+}
+
+.twitter {
+  background-color: #2783da;
+}
+
+.reddit {
+  background-color: #ff5e00;
+}
+
+.github {
+  background: #333;
+}
+
+#discord {
+  margin: 0px;
+  font-family: 'Roboto', serif;
+  font-size: 2em;
+  color: white;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-box-shadow: 4px 4px 8px black;
+          box-shadow: 4px 4px 8px black;
+  border-radius: 10px;
+  padding: 1vw;
+  background-color: #5865F2;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+#discord:hover {
+  -webkit-box-shadow: 2px 2px 8px black;
+          box-shadow: 2px 2px 8px black;
+}
+
+.info {
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  border-radius: 30px;
+  padding: 7px;
+  -webkit-box-shadow: 5px 4px 15px black;
+          box-shadow: 5px 4px 15px black;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
+  background-color: #4e4e4e;
+  display: block;
+}
+
+.info.hide {
+  left: 587132487957239845px;
+}
+/*# sourceMappingURL=style.css.map */
